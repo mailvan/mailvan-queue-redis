@@ -1,9 +1,10 @@
 <?php
 
 
-namespace Mailvan\Core\Queue;
+namespace Mailvan\Queue;
 
 
+use Mailvan\Core\Queue\QueueInterface;
 use Mailvan\Core\Request\RequestInterface;
 use Mailvan\Core\Request\RequestFactoryInterface;
 use Predis\ClientInterface;
